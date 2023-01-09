@@ -190,3 +190,18 @@ li {
     content: "+";
     font-weight: bolder;
 }
+.attractions > h1 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+}
+#content-images {
+    width: 100%;
+}
+.images-attractions1, .images-attractions2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 5rem;
+    gap: 2.5rem;
+}
