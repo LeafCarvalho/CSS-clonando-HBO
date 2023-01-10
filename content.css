@@ -205,3 +205,31 @@ li {
     margin: 0 5rem;
     gap: 2.5rem;
 }
+
+footer {
+    font-family: "Raleway", sans-serif;
+    color: #9e86ff;
+}
+.links > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: bold;
+}
+.links > ul > li {
+    padding-right: 1.5rem;
+}
+footer > p {
+    font-size: 0.75rem;
+    text-align: center;
+}
+.social-medias > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.social-medias > ul > li {
+    padding-right: 2rem;
+}
