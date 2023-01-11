@@ -127,6 +127,7 @@ li {
     border-radius: 2rem;
     background-color: #7521d1;
     transition: 0.7s ease-in-out;
+    cursor: pointer;
 }
 .second-title > button:hover {
     border: 1px solid pink;
@@ -205,6 +206,9 @@ li {
     margin: 0 5rem;
     gap: 2.5rem;
 }
+.images-attractions1 > img, .images-attractions2 > img {
+    cursor: pointer;
+}
 
 footer {
     font-family: "Raleway", sans-serif;
@@ -217,7 +221,11 @@ footer {
     font-weight: bold;
 }
 .links > ul > li {
-    padding-right: 1.5rem;
+    margin-right: 1.5rem;
+    cursor: pointer;
+}
+.links > ul > li:hover{
+    color: #ffffff;
 }
 footer > p {
     font-size: 0.75rem;
@@ -231,5 +239,10 @@ footer > p {
     margin-bottom: 2rem;
 }
 .social-medias > ul > li {
-    padding-right: 2rem;
+    margin-right: 2.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.social-medias > ul > li > a > i:hover {
+    color: #ffffff
 }
