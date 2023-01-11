@@ -214,6 +214,19 @@ li {
 .images-attractions1 > img, .images-attractions2 > img {
     cursor: pointer;
 }
+.image1, .image2, .image3, .image4, .image5, .image6{
+    display: block;
+}
+.image1hover, .image2hover, .image3hover, .image4hover, .image5hover, .image6hover{
+    display: none;
+    transition: 1s ease-in-out;
+}
+.image1:hover + .image1hover, .image2:hover + .image2hover, .image3:hover + .image3hover, .image4:hover + .image4hover, .image5:hover + .image5hover, .image6:hover + .image6hover {
+    display: block;
+}
+.image1:hover, .image2:hover, .image3:hover, .image4:hover, .image5:hover, .image6:hover {
+    display: none;
+}
 
 footer {
     font-family: "Raleway", sans-serif;
@@ -247,6 +260,9 @@ footer > p {
     margin-right: 2.5rem;
     font-size: 1.5rem;
     cursor: pointer;
+}
+.social-medias > ul > li > a > i {
+    color: #9e86ff;
 }
 .social-medias > ul > li > a > i:hover {
     color: #ffffff
