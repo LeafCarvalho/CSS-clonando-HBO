@@ -180,10 +180,10 @@ li {
     width: 100%;
     background-color: #3a1d62;
 }
-.mobile:hover {
+.mobile:hover{
     transform: rotateY(40deg);
 }
-.allscreen:hover {
+.allscreen:hover{
     transform: rotateY(-40deg);
 }
 .mobile-price, .allscreen-price {
