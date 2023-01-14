@@ -1,0 +1,29 @@
+/* Define o estilo dos cards */
+.card {
+  display: inline-block; /* Coloca os cards lado a lado */
+  width: 200px;
+  height: 300px;
+  background: #fff;
+  border-radius: 10px;
+  transition: transform 0.3s; /* Adiciona a transição */
+}
+
+/* Define o estilo do hover no primeiro card */
+.card:hover + .card2 {
+  transform: translateX(45px) rotateY(-45deg); /* Move o segundo card 45px para a direita e rotaciona 45 graus para trás */
+}
+
+/* Define o estilo do segundo card */
+.card2 {
+  display: inline-block; /* Coloca os cards lado a lado */
+  width: 200px;
+  height: 300px;
+  background: #fff;
+  border-radius: 10px;
+  transition: transform 0.3s; /* Adiciona a transição */
+}
+
+/* Define o estilo do hover no segundo card */
+.card2:hover {
+  transform: translateX(-45px) rotateY(45deg); /* Move o segundo card 45px para a esquerda e rotaciona 45 graus para trás */
+}

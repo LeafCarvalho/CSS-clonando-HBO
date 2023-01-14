@@ -166,6 +166,10 @@ li {
     gap: 5rem;
     align-items: center;
     justify-content: center;
+    perspective: 1800px;
+}
+.prices2 {
+    perspective: 10000px;
 }
 .mobile, .allscreen {
     display: flex;
@@ -175,6 +179,12 @@ li {
     height: 100%;
     width: 100%;
     background-color: #3a1d62;
+}
+.mobile:hover {
+    transform: rotateY(40deg);
+}
+.allscreen:hover {
+    transform: rotateY(-40deg);
 }
 .mobile-price, .allscreen-price {
     display: flex;
@@ -223,6 +233,8 @@ li {
 }
 .image1:hover + .image1hover, .image2:hover + .image2hover, .image3:hover + .image3hover, .image4:hover + .image4hover, .image5:hover + .image5hover, .image6:hover + .image6hover {
     display: block;
+    transform: scale(1.05);
+    transform: ;
 }
 .image1:hover, .image2:hover, .image3:hover, .image4:hover, .image5:hover, .image6:hover {
     display: none;
