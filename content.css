@@ -133,11 +133,32 @@ li {
     background-color: #7521d1;
     transition: 0.7s ease-in-out;
     cursor: pointer;
+    animation: rotate 0.5s linear infinite;
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(-3deg);
+    }
+    25% {
+        transform: rotate(3deg);
+    }
+    50% {
+        transform: rotate(0.5deg);
+        animation-play-state: paused;
+    }
+    75% {
+        animation-play-state: running;
+        transform: rotate(3deg);
+    }
+    100% {
+        transform: rotate(-3deg);
+    }
 }
 .second-title > button:hover {
     border: 1px solid pink;
     transition: 0.7s ease-in;
     background-color: transparent;
+    animation: none;
 }
 .second-title > #obs {
     width: 20%;
